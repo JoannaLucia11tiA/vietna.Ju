@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h1{
+    position: absolute;  
+    top: 18%; 
+    left: 20%; 
+    transform: translate(-50%, -50%); /* Ajusta o centro para o meio exato */
+    color: #FDFAE9;
+    font-size: 2em; 
+    font-weight: 500;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    z-index: 1; 
+   
+}
+body { 
+    background-color: #FDF4AE; 
+    overflow-x: hidden; /* Impede o transbordamento horizontal */
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin-top: 1rem;
+}
+h2{
+    font-weight: 450;
+
+}
+header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    height: 5.7rem;
+    background-color: #C30108;
+    padding: 0 2rem;
+    padding-right: 9rem; 
+}
+div.logo img{
+    margin-top: 0.6rem;
+}
+.nav-links {
+    display: flex;
+    gap: 2rem;
+    margin-left: auto; 
+    padding-right: 10rem;
+     
+}
+
+div.logo img{
+    width: 10.14rem; 
+    margin-right: 18rem;
+   
+}
+ul, li{
+    list-style: none;
+}
+header a{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 2.2rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+header ul{
+    display: flex;
+    gap: 7rem;
+}
+
+
+
+
+.container {
+    width: 100%; 
+    height: 100%; 
+}
+
+video {
+    width: 100%;
+    height: 100%; 
+    object-fit: cover; 
+    border: 2px solid #000; 
+}
+div.inicio{
+    display: flex;
+    height: 6.6rem;
+    gap: #FDF4AE;
+    padding-top: 1rem;
+}
+div.inicio p{
+    font-size: 22.7px;
+    width: auto;
+    padding-right: 2rem;
+}
+h2.top{
+    font-weight: 490;
+    font-size: 2rem;
+}
+h2{
+    color: #C30108;
+    padding-left: 9rem;
+    font-size: 28.6px;
+}
+div.temas img{
+    width: 40rem;
+    
+    
+}
+div.temas{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 6rem;
+}
+div.historia{
+    margin-top: 2rem;
+    background-color: #A5131F;
+    width: 20rem;
+    height: 32rem;
+    border-radius: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+div.temas h2{
+    padding-left: 0;
+    color: #FFF;
+    size: 24.2px;
+    text-align: center;
+}
+div.cultura{
+    margin-top: 2rem;
+    background-color: #F0BC5C;
+    width: 20rem;
+    height: 32rem;
+    border-radius: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+div.pontos{
+    margin-top: 2rem;
+    background-color: #A5131F;
+    width: 20rem;
+    height: 32rem;
+    border-radius: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+div.devs{
+    display: flex;
+    justify-content: space-between;
+    gap: 12rem;
+    
+}
+div.devs img{
+    width: 218.6px;
+    height: 218.6px;
+   
+}
+div.devs h2{
+    color: #FFF;
+    font-size: 22.2px;
+    padding-left: 0;
+    
+
+}
+h2.desenvolvedoras {
+    font-weight: 490;
+    font-size: 2rem;
+}
+div.joannal{
+    background-color: #540B0C;
+    padding: 1rem;
+    margin-top: 3rem ;
+    margin-left: 9.68rem;
+    margin-bottom: 1.5rem;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+
+    border-radius: 10rem;
+
+    width: 509.9px;
+    height: 254.9px;
+}
+div.jl{
+    display: flex;
+    flex-direction: column;
+    padding-right: 4rem;
+}
+div.jl a{
+    font-size: 1.5rem;
+}
+div.jl h2{
+    font-size: 1.9rem;
+}
+div.luiza{
+    background-color: #540B0C;
+    padding: 1rem;
+    margin-left:9.68rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-radius: 10rem;
+
+    width: 509.9px;
+    height: 254.9px;
+    margin-bottom: 3rem;
+}
+div.lb{
+    display: flex;
+    flex-direction: column;
+    padding-right: 4rem;
+
+}
+div.lb a{
+    font-size: 1.5rem;
+}
+div.lb h2{
+    font-size: 1.9rem;
+}
+div.andreia{
+    background-color: #540B0C;
+    margin-top: 3rem;
+    padding: 1rem;
+    /* margin-right: 5.68rem; */
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10rem;
+
+    width: 509.9px;
+    height: 254.9px;
+}
+div.ab{
+    display: flex;
+    flex-direction: column;
+    padding-right: 4rem;
+}
+div.ab a{
+    font-size: 1.5rem;
+}
+div.ab h2{
+    font-size: 1.9rem;
+}
+
+div.joannav{
+    background-color: #540B0C;
+    /* margin-right: 5.68rem; */
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10rem;
+
+    width: 509.9px;
+    height: 254.9px;
+    margin-bottom: 3rem;
+}
+div.jv{
+    display: flex;
+    flex-direction: column;
+    padding-right: 4rem;
+}
+div.jv a{
+    font-size: 1.5rem;
+}
+div.jv h2{
+    font-size: 1.9rem;
+}
+
+div.devs a{
+   color: #FFF;
+   text-decoration: none;
+    
+}
+.faixa {
+    width: 100vw; /* Ocupa a largura total da viewport */
+    height: 50px; /* Altura fixa para a faixa */
+    background-color: #C30108; /* Cor de fundo para a faixa */
+    position: relative;
+    z-index: 1;
+}
