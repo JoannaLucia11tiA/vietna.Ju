@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pontos Turísticos</title>
+<link rel="stylesheet" href="./pontos.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="./index.html">
+                <img src="./Logo vietna (1).png" alt="logo do site">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a class="active" href="./faixa.html">História</a>
+                </li>
+                <li>
+                    <a href="">Cultura</a>
+                </li>
+                <li>
+                    <a href="">Ponto turísticos</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+  <main>
+    <div class="tourist-spot">
+      <img src="./Design sem nome.png" alt="Show de Memórias" onclick="goToPage('show-de-memorias')">
+      <a href="./ponto1.html">Hoi An: Show de Memórias</a>
+    </div>
+    <div class="tourist-spot">
+      <img src="./jvl.png" alt="Santuário de My Son" onclick="goToPage('santuario-my-son')">
+      <a href="./ponto2.html">Hoi An: Visita ao Santuário de My Son</a>
+    </div>
+    <div class="tourist-spot">
+      <img src="./jvimg2.png" alt="Ponte de Ouro" onclick="goToPage('ponte-de-ouro')">
+      <a href="./ponto3.html">Ponte de Ouro - Ba Na Hills</a>
+    </div>
+  </main>
+
+  <script>
+    function goToPage(pageName) {
+      // Substitua estas URLs pelos links para suas páginas
+      switch (pageName) {
+        case 'show-de-memorias':
+          window.location.href = 'show
